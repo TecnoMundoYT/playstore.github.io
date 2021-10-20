@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+/*GENERAL SETTINGS*/
+
+.container{
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    grid-template-rows: 14.798072289% 78.76811245% 6.433815261%;
+    grid-template-areas: 
+    "container__section-header"
+    "container__section-content"
+    "container__section-menu"
+    ;
+    overflow: hidden;
+}
+
+
+
+
+
+.container__section-menu{
+    grid-area:  container__section-menu;
+    background: #1f1f1f;
+}
+
+/*Header*/
+
+.container__section-header{
+    grid-area: container__section-header;
+    background: #1f1f1f;
+}
+
+.header__grid{
+    display: grid;
+    
+}
+
+
+
+/*CONTENT*/
+
+.container__section-content{
+    grid-area: container__section-content;
+    background: #1f1f1f;
+}
+
+.content__grid{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-auto-rows: 8.8006787245% 28.23304234%;
+    overflow: scroll;
+
+}
+
+/*Grid apps*/
+
+.row_app{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 6.345177665%;
+    grid-auto-columns: 26.6497461929% 3.04568527919%;
+    grid-template-rows: 60.68024459% 39.31975541%;
+   grid-template-areas: ". app1 . app2 . app3 . app4 . app5 . app6 . app7 . app8"
+                        ". apd1 . apd2 . apd3 . apd4 . apd5 . apd6 . apd7 . apd8";
+    overflow-x: scroll;
+}
+
+.app1{
+    grid-area: app1;
+}
+
+.apd1{
+    grid-area: apd1;
+}
+
+.app2{
+    grid-area: app2;
+}
+
+.apd2{
+    grid-area: apd2;
+}
+
+.app3{
+    grid-area: app3;
+}
+
+.apd3{
+    grid-area: apd3;
+}
+
+.app4{
+    grid-area: app4;
+}
+
+.apd4{
+    grid-area: apd4;
+}
+
+.app5{
+    grid-area: app5;
+}
+
+.apd5{
+grid-area: apd5;
+}
+
+.app6{
+grid-area: app6;
+}
+
+.apd6{
+grid-area: apd6;
+}
+
+.app7{
+    grid-area: app7;
+    }
+    
+.apd7{
+    grid-area: apd7;
+    }
+
+.app8{
+grid-area: app8;
+}
+        
+.apd8{
+grid-area: apd8;
+}
+
+
+
+
+/*App content*/
+
+.app__title{
+    padding-top: 5%;
+    padding-bottom:2% ;
+}
+
+.title__category{
+    padding-left: 37.5px;
+    padding-top: 30px;
+}
+
+.app__img{
+    width: auto;
+    height: 100%;
+}
